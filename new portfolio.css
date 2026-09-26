@@ -62,10 +62,10 @@ body.dark.theme-btn{justify-content:flex-end;background:#111827}
 
 /* RK CIRCLE */
 .rk-wrap{position:relative;width:200px;height:260px;margin:26px auto}
-.rk-ring{position:absolute;inset:0;border-radius:50%;border:1px solid purple ;box-shadow:0 0 40px rgba(250,204,21,0.12), inset 0 0 30px rgba(250,204,21,0.08)}
-.rk-ring::before{content:'';position:absolute;inset:12px;border-radius:50%;border:1px solid rgba(250,204,21,0.15)}
-.rk-center{position:absolute;inset:30px;border-radius:50%;background:radial-gradient(circle at 50% 30%, #1e1e20, #0f0f10);border:1px solid var(--border);display:grid;place-items:center;overflow:hidden}
-.rk-center img{width:100%;height:100%;object-fit:cover;opacity:0;transition:1s}
+.rk-ring{position:absolute;inset:0;border-radius:50%;border:1px solid black;box-shadow:0 0 40px #862237, inset 0 0 30px purple}
+.rk-ring::before{content:'';position:absolute;inset:12px;border-radius:50%;border:1px solid purple }
+.rk-center{position:absolute;inset:30px;border-radius:50%;background:radial-gradient(circle at 50% 30%, #1e1e20, #0f0f10);border:1px solid yellow ;display:grid;place-items:center;overflow:hidden}
+.rk-center img{width:100%;height:100%;object-fit:cover;opacity:0;transition:1s;}
 .rk-center.active img{opacity:1}
 .rk-text{position:absolute;inset:-12px;animation:rotate 14s linear infinite}
 @keyframes rotate{to{transform:rotate(180deg)}}
