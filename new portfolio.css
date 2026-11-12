@@ -217,7 +217,7 @@ body.dark.theme-btn{
    font-size:14px;
 }.p-body p{
    font-size:12px;
-   color:var(--muted);
+   color:var(--fg);
    margin-top:6px;
 }
 .p-icons{
