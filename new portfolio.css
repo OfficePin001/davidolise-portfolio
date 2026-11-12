@@ -396,10 +396,11 @@ body.dark.theme-btn{
 }
 .proj-body h3{
    font-size:15px;
+   color:var(--muted);
 }
 .proj-body p{
    font-size:12px;
-   color:var(--fg);
+   color:var(--muted);
    margin-top:6px;
    line-height:1.5;
 }
